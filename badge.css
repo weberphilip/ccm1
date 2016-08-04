@@ -18,7 +18,7 @@ div.badge {
     text-align: center;
     width: 120px;
 }
-img {
+badge.img {
     width: 100px;
     height: 100px;
     background-color: grey;
@@ -26,11 +26,11 @@ img {
     transition: all 0.7s ease;
 }
 
-img:hover {
+badge.img:hover {
 border-radius:50%;
 box-shadow: 0 10px 6px -6px grey;
 }
-.name {
+badge.name {
     display: block;
     font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
