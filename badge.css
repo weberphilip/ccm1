@@ -1,9 +1,9 @@
 
-div.badge_image:hover {
+div.badge_img:hover {
 border-radius:50%;
 box-shadow: 0 10px 6px -6px grey;
 }
-div.badge_image {
+div.badge_img {
 -webkit-transition: all 0.7s ease;
 transition: all 0.7s ease;
 }
