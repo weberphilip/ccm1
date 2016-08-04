@@ -1,5 +1,5 @@
 
-.badge_img:hover {
+/**.badge_img:hover {
 border-radius:50%;
 box-shadow: 0 10px 6px -6px grey;
 }
@@ -11,4 +11,18 @@ transition: all 0.7s ease;
 .badge_name {
 text-align: center;
 font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}*/
+div.badge {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
+img {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}
+.name {
+    display: block;
 }
