@@ -1,4 +1,6 @@
-.string_name {
+div.string_name {
+color : green;
+background-color: #8c8c8c;
 text-align: center
 font-family: 'Open Sans', sans-serif;
 }
