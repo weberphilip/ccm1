@@ -43,6 +43,11 @@ span.badge_info {
     left: 0;
     position: absolute;
     opacity: 0;                     /*Nur sichtbar bei hover*/
+    /*Animation für verschiedene Browser*/
+    -webkit-transition: opacity 500ms;  /*Chrome, Safari*/
+    -moz-transition: opacity 500ms;    /*Firefox*/
+    -o-transition: opacity 500ms;      /*Opera*/
+    transition: opacity 500ms;        /*Standard*/
 }
 
 span.badge_info:hover {
