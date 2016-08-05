@@ -16,7 +16,7 @@ div.badge {
     vertical-align: top;
     display: inline-block;
     text-align: center;
-    width: 120px;
+    width: 100px;
 }
 img {
     width: 100px;              /* Gleiche Weite wie bei span.badge_info*/ 
@@ -37,9 +37,8 @@ span.badge_info {
     height: 100px;              /*Gleiche Höhe wie bei img*/    
     width: 100px;               /*Gleiche Weite wie bei img*/    
     top: 0;
-    left: 0;
+    left: ;
     position: absolute;
-   
 }
 
 span.badge_info span {
