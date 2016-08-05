@@ -25,10 +25,8 @@ img {
     transition: all 0.7s ease;
 }
 
-img:hover {
-border-radius:50%;
-box-shadow: 0 10px 6px -6px grey;
-}
+
+
 span.badge_info {
     background: rgba(0,0,0,0.5);
     color: black;
