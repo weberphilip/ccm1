@@ -19,6 +19,7 @@ div.badge {
     width: 100px;
     top: 0;
     left: 0;
+    margin: 10px;
     position: absolute;
 }
 img {
