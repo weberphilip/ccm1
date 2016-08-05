@@ -65,6 +65,7 @@ span.badge_info span {
 
 
 .badge_name {
+    font-weight: bold;
     display: block;
     text-align: center;
   
