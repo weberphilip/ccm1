@@ -33,6 +33,7 @@ img {
 
 span.badge_info {
     background: rgba(0,0,0,0.5);
+    border-radius: 5px;
     color: white;
     cursor: pointer;
     height: 100px;              /*Gleiche Höhe wie bei img*/    
