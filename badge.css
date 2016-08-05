@@ -1,5 +1,5 @@
 
-/**.badge_img:hover {test
+/**.badge_img:hover {
 border-radius:50%;
 box-shadow: 0 10px 6px -6px grey;
 }
@@ -47,7 +47,7 @@ span.badge_info {
     -webkit-transition: opacity 500ms;  /*Chrome, Safari*/
     -moz-transition: opacity 500ms;    /*Firefox*/
     -o-transition: opacity 500ms;      /*Opera*/
-    
+    transition: opacity 500ms;        /*Standard*/
 }
 
 span.badge_info:hover {
