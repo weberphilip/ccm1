@@ -24,9 +24,9 @@ div.badge {
 }
 img {
     width: 100px;              /* Gleiche Weite wie bei span.badge_info*/ 
-    height: 100px;             /*Gleiche Höhe wie bei span.badge_info*/      
-    -webkit-transition: all 0.7s ease;
-    transition: all 0.7s ease;
+    height: 100px;             /*Gleiche Höhe wie bei span.badge_info    
+    /*-webkit-transition: all 0.7s ease;*/  
+    /*transition: all 0.7s ease;*/  
 }
 
 
@@ -51,7 +51,8 @@ span.badge_info {
 
 span.badge_info:hover {
      opacity: 1;    
-     width: 300px;
+     width: 300px; 
+     height: 105px;
 }
 
 span.badge_info span {
