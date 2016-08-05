@@ -19,8 +19,8 @@ div.badge {
     width: 120px;
 }
 img {
-    width: 100px;
-    height: 100px;
+    width: 100px;              //Gleiche Weite wie bei span.badge_info 
+    height: 100px;             //Gleiche Höhe wie bei span.badge_info      
     background-color: grey;
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
@@ -30,6 +30,27 @@ img:hover {
 border-radius:50%;
 box-shadow: 0 10px 6px -6px grey;
 }
+span.badge_info {
+    background: rgba(0,0,0,0.5);
+    color: black;
+    cursor: pointer;
+    display: table;
+    height: 100px;              //Gleiche Höhe wie bei img    
+    width: 150px;               //Gleiche Weite wie bei img    
+    top: 0;
+    left: 0;
+    position: absolute;
+   
+}
+
+span.badge_info span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+
 .badge_name {
     display: block;
     font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
