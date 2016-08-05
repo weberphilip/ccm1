@@ -17,6 +17,9 @@ div.badge {
     display: inline-block;
     text-align: center;
     width: 100px;
+    top: 0;
+    left: 0;
+    position: absolute;
 }
 img {
     width: 100px;              /* Gleiche Weite wie bei span.badge_info*/ 
