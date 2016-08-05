@@ -51,6 +51,7 @@ span.badge_info {
 
 span.badge_info:hover {
      opacity: 1;    
+     width: 300px;
 }
 
 span.badge_info span {
