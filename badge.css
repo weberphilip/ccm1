@@ -33,7 +33,7 @@ img {
 
 span.badge_info {
     background: rgba(0,0,0,0.5);
-    color: black;
+    color: white;
     cursor: pointer;
     display: table;
     height: 100px;              /*Gleiche Höhe wie bei img*/    
@@ -41,6 +41,11 @@ span.badge_info {
     top: 0;
     left: 0;
     position: absolute;
+    opacity: 0;                     /*Nur sichtbar bei hover*/
+}
+
+span.badge_info:hover {
+     opacity: 1;    
 }
 
 span.badge_info span {
