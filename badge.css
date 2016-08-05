@@ -15,7 +15,6 @@ font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetic
 div.badge {
     vertical-align: top;
     display: inline-block;
-    text-align: center;
     width: 100px;
     top: 0;
     left: 0;
@@ -36,7 +35,6 @@ span.badge_info {
     background: rgba(0,0,0,0.5);
     color: white;
     cursor: pointer;
-    display: table;
     height: 100px;              /*Gleiche Höhe wie bei img*/    
     width: 100px;               /*Gleiche Weite wie bei img*/    
     top: 0;
@@ -55,7 +53,6 @@ span.badge_info:hover {
 }
 
 span.badge_info span {
-  display: table-cell;
   text-align: left;
   vertical-align: middle;
 }
@@ -64,5 +61,6 @@ span.badge_info span {
 
 .badge_name {
     display: block;
+    text-align: center;
   
 }
