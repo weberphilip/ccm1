@@ -1,17 +1,3 @@
-
-/**.badge_img:hover {
-border-radius:50%;
-box-shadow: 0 10px 6px -6px grey;
-}
-.badge_img {
--webkit-transition: all 0.7s ease;
-transition: all 0.7s ease;
-}
-
-.badge_name {
-text-align: center;
-font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}*/
 .ccm-badge_test > .badge{
     vertical-align: top;
     display: inline-block;
@@ -19,19 +5,13 @@ font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetic
     top: 0;
     left: 0;
     margin: 40px;
-   
+    position: relative;
     font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.ccm-badge_test > .img {
-    width: 100px;              /* Gleiche Weite wie bei span.badge_info*/ 
-    height: 100px;             /*Gleiche Höhe wie bei span.badge_info    
-    /*-webkit-transition: all 0.7s ease;*/  
-    /*transition: all 0.7s ease;*/  
-}
 
 
 
-.ccm-badge_test > span.badge_info {
+.ccm-badge_test > .badge > span.badge_info {
     border-radius: 5px;                /*Runde Ecken*/    
     background: transparent;        /*Für schnellen fade-out*/       
     color: transparent;             /*Für schnellen fade-out*/ 
@@ -48,9 +28,12 @@ font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetic
     -moz-transition: opacity 500ms;    /*Firefox*/
     -o-transition: opacity 500ms;      /*Opera*/
     transition: opacity 500ms;        /*Standard*/
+    text-align: left;
+    vertical-align: middle;
+    z-index: 1;  /*Info soll ganz oben liegen*/
 }
 
-.ccm-badge_test > span.badge_info:hover {
+.ccm-badge_test > .badge > span.badge_info:hover {
      opacity: 1;    
      width: 300px; 
      height: 105px;
@@ -58,14 +41,10 @@ font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetic
      background: rgba(0,0,0,0.8);
 }
 
-.ccm-badge_test > span.badge_info span {
-  text-align: left;
-  vertical-align: middle;
-}
 
 
 
-.ccm-badge_test >.badge_name {
+.ccm-badge_test > .badge >.badge_name {
     font-weight: bold;
     display: block;
     text-align: center;
