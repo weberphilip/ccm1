@@ -1,1 +1,52 @@
+.ccm-badge_test > .badge{
+    vertical-align: top;
+    display: inline-block;
+    width: 100px;
+    top: 0;
+    left: 0;
+    margin: 40px;
+    position: relative;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
+
+
+.ccm-badge_test > .badge > span.badge_info {
+    border-radius: 5px;                /*Runde Ecken*/    
+    background: transparent;        /*Für schnellen fade-out*/       
+    color: transparent;             /*Für schnellen fade-out*/ 
+    cursor: pointer;
+    height: 100px;              /*Gleiche Höhe wie bei img*/    
+    width: 100px;               /*Gleiche Weite wie bei img*/    
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;                     /*Nur sichtbar bei hover*/
+    overflow: hidden;                  /*Andernsfalls hoverprobleme*/ 
+    /*Animation für verschiedene Browser*/
+    -webkit-transition: opacity 500ms;  /*Chrome, Safari*/
+    -moz-transition: opacity 500ms;    /*Firefox*/
+    -o-transition: opacity 500ms;      /*Opera*/
+    transition: opacity 500ms;        /*Standard*/
+    text-align: left;
+    vertical-align: middle;
+    z-index: 1;  /*Info soll ganz oben liegen*/
+}
+
+.ccm-badge_test > .badge > span.badge_info:hover {
+     opacity: 1;    
+     min-width: 300px;             
+     height: auto;
+     color: white;
+     background: rgba(0,0,0,0.8);
+}
+
+
+
+
+.ccm-badge_test > .badge >.badge_name {
+    font-weight: bold;
+    display: block;
+    text-align: center;
+  
+}
