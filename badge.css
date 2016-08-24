@@ -36,7 +36,6 @@
 .ccm-badge_test > .badge > span.badge_info:hover {
      opacity: 1;    
      min-width: 300px;             
-     width: auto ;
      height: auto;
      color: white;
      background: rgba(0,0,0,0.8);
