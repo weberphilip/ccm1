@@ -12,7 +12,7 @@ transition: all 0.7s ease;
 text-align: center;
 font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }*/
-div.badge {
+.ccm-badge_test > .badge{
     vertical-align: top;
     display: inline-block;
     width: 100px;
@@ -22,7 +22,7 @@ div.badge {
    
     font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-img {
+.ccm-badge_test > .img {
     width: 100px;              /* Gleiche Weite wie bei span.badge_info*/ 
     height: 100px;             /*Gleiche Höhe wie bei span.badge_info    
     /*-webkit-transition: all 0.7s ease;*/  
@@ -31,7 +31,7 @@ img {
 
 
 
-span.badge_info {
+.ccm-badge_test > span.badge_info {
     border-radius: 5px;                /*Runde Ecken*/    
     background: transparent;        /*Für schnellen fade-out*/       
     color: transparent;             /*Für schnellen fade-out*/ 
@@ -50,7 +50,7 @@ span.badge_info {
     transition: opacity 500ms;        /*Standard*/
 }
 
-span.badge_info:hover {
+.ccm-badge_test > span.badge_info:hover {
      opacity: 1;    
      width: 300px; 
      height: 105px;
@@ -58,14 +58,14 @@ span.badge_info:hover {
      background: rgba(0,0,0,0.8);
 }
 
-span.badge_info span {
+.ccm-badge_test > span.badge_info span {
   text-align: left;
   vertical-align: middle;
 }
 
 
 
-.badge_name {
+.ccm-badge_test >.badge_name {
     font-weight: bold;
     display: block;
     text-align: center;
