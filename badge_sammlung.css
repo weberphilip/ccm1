@@ -1,4 +1,4 @@
-.ccm-badge_test > .badge{
+.ccm-badge_sammlung > .badge{
     vertical-align: top;
     display: inline-block;
     width: 100px;
@@ -11,7 +11,7 @@
 
 
 
-.ccm-badge_test > .badge > span.badge_info {
+.ccm-badge_sammlung > .badge > span.badge_info {
     border-radius: 5px;                /*Runde Ecken*/    
     background: transparent;        /*Für schnellen fade-out*/       
     color: transparent;             /*Für schnellen fade-out*/ 
@@ -33,7 +33,7 @@
     z-index: 1;  /*Info soll ganz oben liegen*/
 }
 
-.ccm-badge_test > .badge > span.badge_info:hover {
+.ccm-badge_sammlung > .badge > span.badge_info:hover {
      opacity: 1;    
      min-width: 300px;             
      height: auto;
@@ -44,7 +44,7 @@
 
 
 
-.ccm-badge_test > .badge >.badge_name {
+.ccm-badge_sammlung > .badge >.badge_name {
     font-weight: bold;
     display: block;
     text-align: center;
