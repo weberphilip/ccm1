@@ -13,7 +13,7 @@ ccm.component( {
    bild_1: "https://raw.githubusercontent.com/weberphilip/ccm1/master/badge5.png",                           // Bild-Pfad
 
    badge_name_2: "Quizmaster",           
-   badge_beschreibung_2: "Du hast das Abzeichen 'Fehlerfrei' 3 mal erhalten und erhälst dadurch dieses Abzeichen!",   
+   badge_beschreibung_2: "Du hast das Abzeichen 'Fehlerfrei' 3 mal erhalten und bekommst dadurch dieses Abzeichen!",   
    badge_date_2: "25.06.2016 17:10:28",                                                                          
    bild_2: "https://raw.githubusercontent.com/weberphilip/ccm1/master/badge4.png",                           
 
@@ -48,7 +48,7 @@ ccm.component( {
    bild_8: "https://raw.githubusercontent.com/weberphilip/ccm1/master/badge8_no_color.png", 
 
    badge_name_9: "Vielschreiber",           
-   badge_beschreibung_9: "Tipp: Die soziale Interaktion ist wichtiger Bestandtteil eines E-Learning Kurses!",   
+   badge_beschreibung_9: "Tipp: Die soziale Interaktion ist wichtiger Bestandteil eines E-Learning Kurses!",   
    badge_date_9: "-Noch nicht erhalten-",                                                                          
    bild_9: "https://raw.githubusercontent.com/weberphilip/ccm1/master/badge7_no_color.png",
 
