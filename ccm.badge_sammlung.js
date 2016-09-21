@@ -20,7 +20,7 @@ ccm.component( {
    badge_name_3: "Klausurzulassung",            
    badge_beschreibung_3: "Indem du bereits über 77 Punkte gesammelt hast, ist dir die Klausurzulassung zumindest sicher!",   
    badge_date_3: "27.06.2016 14:57:15",                                                                           
-   bild_3: "https://raw.githubusercontent.com/weberphilip/ccm1/master/badge_2.png",                          
+   bild_3: "https://raw.githubusercontent.com/weberphilip/ccm1/master/badge2.png",                          
 
    badge_name_4: "Aus freien Stücken",            
    badge_beschreibung_4: "Sehr schön! Du hast bereits 50% des freiwilligen Materials bearbeitet",  
